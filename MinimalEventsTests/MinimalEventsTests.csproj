@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <Company>OpenShock</Company>
+        <AssemblyName>OpenShock.MinimalEvents.Tests</AssemblyName>
+        <RootNamespace>OpenShock.MinimalEvents.Tests</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="TUnit" Version="0.17.14" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MinimalEvents\MinimalEvents.csproj" />
+    </ItemGroup>
+
+</Project>

@@ -1,4 +1,6 @@
-﻿namespace OpenShock.MinimalEvents;
+﻿using OpenShock.MinimalEvents.Sync;
+
+namespace OpenShock.MinimalEvents;
 
 public sealed class MinimalEvent : IMinimalEventObservable
 {

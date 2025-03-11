@@ -1,4 +1,4 @@
-﻿namespace OpenShock.MinimalEvents;
+﻿namespace OpenShock.MinimalEvents.Sync;
 
 internal sealed class Subscription<T> : IDisposable
 {

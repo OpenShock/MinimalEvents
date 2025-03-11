@@ -1,4 +1,4 @@
-﻿namespace OpenShock.MinimalEvents;
+﻿namespace OpenShock.MinimalEvents.Async;
 
 internal sealed class AsyncSubscription<T> : IAsyncDisposable
 {

@@ -1,4 +1,6 @@
-﻿namespace OpenShock.MinimalEvents;
+﻿using OpenShock.MinimalEvents.Async;
+
+namespace OpenShock.MinimalEvents;
 
 public sealed class AsyncMinimalEvent<T> : IAsyncMinimalEventObservable<T>
 {

@@ -1,6 +1,4 @@
-﻿using OpenShock.MinimalEvents;
-
-namespace MinimalEventsTests;
+﻿namespace OpenShock.MinimalEvents.Tests;
 
 public class AsyncTypedEventTest
 {

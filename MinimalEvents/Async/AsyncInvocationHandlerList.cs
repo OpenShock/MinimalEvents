@@ -1,6 +1,6 @@
 ﻿using System.Collections.Immutable;
 
-namespace OpenShock.MinimalEvents;
+namespace OpenShock.MinimalEvents.Async;
 
 internal sealed class AsyncInvocationHandlerList<T>
 {

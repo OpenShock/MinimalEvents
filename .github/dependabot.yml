@@ -8,6 +8,6 @@ updates:
       day: 'monday'
       time: '06:00'
     groups:
-      npm-dependencies:
+      nuget-dependencies:
         patterns:
           - '*' # Group all updates together
